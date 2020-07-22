@@ -1,0 +1,149 @@
+body {
+	margin: 0;
+	background-color: lightgrey;
+	font: 1em helvetica, arial, sans-serif;
+	background-image: url('./../img/bg.jpg');
+} 
+/*-------------------Header---------------*/
+header {
+    background-color: rgb(0, 42, 61);
+    height: 12vh;
+}
+.main-banner {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+} 
+/*-------------------Width---------------*/
+.main-row {
+    max-width: 75em;
+    margin: 0 auto;
+}
+/*------Amazon logo-------*/
+.main-logo {
+    display: inline-block;
+    height: 3.125em;
+}
+/*------Navigation links------*/
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+}
+.main-nav  ul {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 3em;
+}
+.main-nav  ul a {
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.125em;
+    margin-left: 2em;
+}
+.main-nav  ul a:hover {
+    color: chocolate;
+    border-bottom: .125em solid #fff;
+    transition: color .2s, border-bottom .2s;
+}
+/*------Main button------*/
+.main-button {
+    margin-top:.350em;
+}
+.main-bttn {
+    background-color: rgb(218, 116, 79);
+    border: none;
+    border-radius: 1em;
+    padding: .5em 1em;
+    opacity: .9;
+}   
+/*------login button------*/
+.log-bttn {
+    background-color: #fff;
+    font-weight: bold;
+    margin-right: 1em;
+}
+ /*------Sign Up button hovering------*/
+ .main-bttn:hover {
+    opacity: 1;
+    transition: opacity .2s;
+}
+ /*------login button hovering------*/
+.log-bttn:hover {
+    background-color: chocolate;
+    color: #fff;
+    transition: color .2s, background-color .2s;
+}
+
+/* -------------Footer-------------------- */
+footer {
+    background-color: rgb(0, 42, 61);
+    padding: 2em;
+    margin-top: 2em;
+}
+.main-footer {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.main-footer a {
+    text-decoration: none;
+    color: #fff;
+}
+.main-footer a:hover {
+    color: chocolate;
+    transition: color .2s;
+}
+.main-footer li {
+    margin-top: .35em;
+}
+h2 {
+    color: #fff;
+}
+.footer-logo {
+    margin: 1.5em 0;
+}
+.footer-logo a {
+    display: block;
+    text-align: center;
+}
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-links {
+    display: flex;
+}
+.footer-links a {
+    text-decoration: none;
+    color: chocolate;
+    margin-left: 1em;
+    font-size: 1.225em;
+}
+.footer-links a:hover {
+    color: #fff;
+    transition: color .2s;
+}
+.footer-links li:first-of-type a:first-of-type {
+    margin-left: 0;
+}
+.footer-social {
+    display: flex;
+}
+.footer-social a{
+    margin-right: 2em;
+}
+.footer-social img {
+    height: 2.5em;  
+    
+}
+.footer-social li:last-of-type a:last-of-type {
+    margin-right: 0;
+}
+.copy {
+    text-align: center;
+    color: #fff;
+    opacity: .8;
+}
+
